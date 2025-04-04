@@ -14,9 +14,3 @@ def caesar_salt_encrypt(plaintext, key, salt):
         else:
             encrypted.append(char)
     return ''.join(encrypted)
-
-plaintext = "HELLO"
-key = 5
-salt = "XQ3"
-ciphertext = caesar_salt_encrypt(plaintext, key, salt)
-print("Ciphertext:", ciphertext)  # Output: "WMPAW"
