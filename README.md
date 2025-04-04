@@ -11,3 +11,5 @@ salt = "XQ3"
 ciphertext = caesar_salt_encrypt(plaintext, key, salt)
 print("Ciphertext:", ciphertext)  # Output: "WMPAW"
 ```
+
+To see how the Caesar Salt cipher works with secret key see here [Ceasar Salt Cipher with secret key](https://github.com/RykerWilder/notes/blob/main/encryption/ceasar-key-salt.md)
