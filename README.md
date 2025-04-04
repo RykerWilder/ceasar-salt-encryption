@@ -1,1 +1,1 @@
-# ceasar-salt-encryption
+# Ceasar salt encryption
